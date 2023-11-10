@@ -1,0 +1,18 @@
+/* #id1{
+    font-family:monospace;
+} */
+
+table,th,tr,td{
+    border: 2px groove #000;
+    border-collapse: collapse;
+}
+th{
+    background-color: aquamarine;
+}
+.row1{
+    font-size:20px;
+    font-weight: bold;
+}
+#row3{
+    background-color: orange;
+}
