@@ -1,0 +1,41 @@
+.container{
+    width:97vw;
+    height:97vh;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    gap:2px;
+   background-color: black;
+   padding: 10px;
+}
+.div1{
+    width:210px;
+    height:110px;
+    border: 1px solid #000;
+    background-color:gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mic{
+    width:150px;
+    height: 150px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+.mic i{
+    color:red;
+}
+
+.name{
+    width:50px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+}

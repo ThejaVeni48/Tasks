@@ -1,0 +1,29 @@
+.container{
+    width:900x;
+    height: 700px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.id1{
+    width:300px;
+    height: 400px;
+    border: 1px solid #000;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .img-container {
+    width:120px;
+} 
+.img-container img{
+    width:100%;
+    border-radius:50%;
+} 
+.id1 h3,h4,p{
+    text-align: center;
+}
+
+ 
