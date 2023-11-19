@@ -1,0 +1,35 @@
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin: 15px 0;
+}
+.gallery img{
+    flex-wrap: wrap;
+    width: 320px;
+    height: 300px;
+    margin:10px 0;
+}
+h4{
+    position: sticky;
+    top:10px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    /* border-bottom: 3px solid black; */
+}
+span{
+    font-weight: 100;
+   
+}
+h4:hover{
+    color:brown;
+}
+img:hover{
+    box-shadow: 2px 2px 2px black;
+    border: 3px solid red;
+    /* background-color: red; */
+    width:350px;
+    height: 320px;
+}
