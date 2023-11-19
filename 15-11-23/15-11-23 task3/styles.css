@@ -1,0 +1,29 @@
+.container{
+    width:97vw;
+    height: 97vh;background-color: aliceblue;
+}
+.top{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section{
+    width:1000px;
+    height: 700px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sweet{
+    display: flex;
+    width:30%;
+    padding: 10px;
+    flex-basis: 1;
+}
+img{
+width: 100%;
+}

@@ -1,0 +1,80 @@
+body{
+    width:97vw;
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width:300px;
+    min-height: 300px;
+    border: 1px solid #000;
+    /* background:conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg,white 180deg,white 270deg, green 270deg,green 360deg ); */
+    border-radius: 50%;
+    /* background: conic-gradient(from 1turn at 50% 50%, #f69d3c, 0deg, #3f87a6, 350deg, #ebf8e1); */
+    /* background: linear-gradient( */
+    /* background: conic-gradient(from 0deg, red 0%,blue 25%, yellow 50%, brown 75%, chocolate 100%); */
+    background: conic-gradient(rgba(128, 0, 128, 0.692) 0% 20%, lightgreen 20% 30.5%, tomato 30.5% 55%, chocolate 55% 72%, orange 72% 88%, aqua 88% 100%);    
+    
+    /* background: conic-gradient(purple  0% 6%, skyblue 6% 14%, tomato 14% 24%, yellowgreem 24% 34%, chocolate 34% 54%, lightgreen 54% 81%, brown 81% 100% ); */
+    display: flex;justify-content: center;align-items: center;
+
+}
+.items{
+    margin-left:32rem;
+   
+    
+} 
+.item1{
+    color:rgba(128, 0, 128, 0.692);
+}
+.item2{
+    color: lightgreen;
+}
+.item3{
+    color: tomato;
+}
+.item4{
+    color: chocolate;
+}
+.item5{
+    color: orange;
+}
+.item6{
+    color: aqua;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
