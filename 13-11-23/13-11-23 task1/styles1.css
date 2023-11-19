@@ -1,0 +1,31 @@
+.cls3{
+    border: 2px solid #000;
+    width:50px;
+    text-align: center;
+    padding: 10px;
+    background-color: paleturquoise;
+    /* border-radius:10px; */
+}
+.cls2{
+    width:75px;
+    border: 2px solid blue;
+    padding:10px;
+    background-color: tomato;
+    /* border-radius: 10px 40px; */
+}
+.cls1{
+    width:100px;
+    border: 2px solid brown;
+    padding: 10px;
+    background-color: yellowgreen;
+    /* border-radius: 10px 20px 50px; */
+}
+
+.main{
+    width: 125px;
+    border: 2px solid  purple;
+    padding: 30px;
+    margin: 100px;
+    background-color: chocolate;
+    /* border-radius: 50%; */
+}
