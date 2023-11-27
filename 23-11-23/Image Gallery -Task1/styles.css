@@ -1,0 +1,11 @@
+.image-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,auto);
+    background-color: pink;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: 200px;
+  }

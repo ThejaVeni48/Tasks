@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+}
+.items{
+    display: grid;
+    grid-template-rows:100px;
+    border: 1px solid rgb(229, 228, 226);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-content: end;
+    align-items: end;
+    padding: 5px;
+    border-radius: 10px;
+}
+.item{
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(229, 228, 226)
+}
+.symbol{
+    background-color:  rgb(132, 136, 132);
+}
+.id{
+    background-color: blue;
+}
