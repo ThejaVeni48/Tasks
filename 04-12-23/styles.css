@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.header{
+    /* border: 1px solid #000; */
+    /* background-color: green; */
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    line-height: 30px;
+    /* padding: 10px; */
+}
+.left{
+    width:120px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding-left: 15px;
+    font-size: 25px;
+    color:tomato;
+}
+.left-icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.left-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.left-logo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px; 
+     /* margin-bottom: 10px;  */
+}
+.header .left:hover {
+    background-color: tomato;
+    color:white;
+    cursor: pointer;
+}
+ .right
+{   width:50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content:center;
+    align-self: center;
+    font-size: 35px;
+    padding: 10px;
+    color:gray;
+}
+.right .searchicon{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.right:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.main{
+    /* margin-top:10px; */
+    width:100%;
+   
+}
+.main img{
+    width:100%;
+}
+/* .main{
+    position: relative;
+    width:95vw;
+    height: 95vw;
+    background-image: url('img1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+} */
+.info-box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:800px;
+    height: 280px; 
+    background-color:rgba(245,245, 245, 0.95);
+    color:black;
+    /* background-color: pink; */
+}
+/* .nav-bar{
+    background-color:black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.travel-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.tickets{
+    display: flex;
+    justify-content:flex-start;
+}
+.row1 input{
+  width:100%;
+  padding: 10px;
+} */
+/* .nav-bar{
+    background-color: pink;
+    display: flex;
+    line-height: 30px;
+    /* justify-content: flex-start;
+    align-items: start; 
+    background-color: black;
+    color: rgba(245,245, 245, 0.7);
+}
+.nav-bar ul li{
+    display: inline-flex;
+    /* border: 1px solid #000; 
+    padding: 5px;
+    font-size: 18px;
+    /* color: rgba(245,245, 245, 0.7); 
+}
+.nav-bar ul li i{
+    font-size: 25px;
+    /* color:whitesmoke; 
+} */
+/* .info-box li:first-child{
+    background-color: tomato;
+}*/
+.info-box li a:hover{
+    background-color: gray;
+    cursor: pointer;
+} 
+#menu2 span{
+    background-color: orangered;
+    color:#fff;
+    padding: 2px;
+}
+
+.travel{
+    display: flex;
+    flex-direction: column;
+    /* gap:5px; */
+    padding: 20px;
+}
+.depature-arrival{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap:10px
+}
+.from,.to
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* background-color: pink; */
+}
+input[type=text]
+{
+    padding: 10px;
+}
+.dates{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.dates button{
+    padding: 10px;
+    width: 30%;
+    border: none;
+    /* border-radius: 5px; */
+    background-color: grey;
+    color:white;
+    font-size: 15px;
+}
+.dates button:hover{
+    background-color: gainsboro;
+    color:black;
+    cursor: pointer;
+}
+#container{
+    width:80%;
+    margin: 30px auto;
+}
+h2{
+    margin-bottom: 20px;
+    font-weight:10;
+}
+h6{
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.gallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px 10px;
+    }
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .one{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    figcaption{
+        position: relative;
+         top:-40px;
+         left:20px;
+         color:white;
+    }
+#section{
+    width:80%;
+    display: block;
+    margin: auto;
+    
+}
+.mountains{
+    width:100%;
+    height: 100%;
+    display: flex;
+    gap:10px;
+    /* border: 1px solid #000; */
+    
+}
+.mountains-left,.mountains-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+   
+    /* justify-content: center;
+    align-items: center; */
+}
+.mountains-top{
+    display: flex;
+    flex-grow: 1;
+    /* border: 1px solid #000; */
+}
+.mountains-top img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.mountains-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap:20px;
+    padding: 10px;
+    background-color: white;
+}
+.mountains-bottom h3{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;;
+ font-weight: 100;
+}
+.mountains-bottom h6{
+    color:grey;
+}
+.mountains-bottom p{
+    margin-top: -10px;
+}
+.buy-tickets{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    color:black;
+    font-size: 15px;
+    padding-left: 25px;
+}
+.buy-tickets:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+#best-offers{
+    width:80%;
+    display: block;
+    margin: 30px auto;
+    /* padding: 50px; */
+    background-color: grey;
+}
+#best-offers:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.offers-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:10px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;;
+    color:white;
+}
+.offers-content h2{
+    font-weight: 100;
+}
+.offers-content .subscribe{
+      width:10%;
+      padding: 10px;
+    background-color: tomato;
+   border: none;
+}
+.offers-content .subscribe:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+input[type="email"]{
+    padding: 10px;
+    font-size: 15px;
+}
+#contact{
+    /* max-width: 1224px; */
+    width:80%;
+    display: block;
+    margin: auto;
+    padding: 40px 0;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.contact-content ul{
+    list-style: none;
+}
+.contact-content ul li span{
+    padding-left: 10px;
+}
+.contact-btn{
+    width:20%;
+    padding: 10px;
+  background-color:black;
+  border: none;
+  color:white;
+}
+.contact-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.contact input:focus{
+    border: 1px solid #000;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color:gray
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+.footer ul li:hover{
+    color:rgba(220,220,220,1);
+    cursor: pointer;
+}
+.footer a{
+    color:gray;
+}
+.footer a:hover{
+    color:green;
+    cursor: pointer;
+}
+/* button:current{
+    background-color: yellow;
+    color:green;
+} */
+/* a[href="menu1"]:hover
+{
+    background-color: red; !important
+}
+a[href="home"]:not(hover){
+    background-color: yellow;
+} */
+
+
+
+
+
+

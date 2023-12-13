@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+      <div class="header">
+          <div class="left">
+                <div class="left-icon">
+              <i class='bx bxs-map'></i>
+                </div>
+                <div class="left-logo">
+                   <p>Logo</p>
+                </div>         
+          </div>
+            <div class="right">
+                   <div class="searchicon">
+                <i class='bx bx-search'></i>
+                   </div>
+            </div>
+      </div>
+            <div class="main">
+                <img src="img1.jpg">
+                   <div class="info-box">
+                    <ul class="nav nav-pills bg-dark " role="tablist">
+                      <li class="nav-item bg-dark">
+                        <a class="nav-link active bg-danger text-light " data-bs-toggle="pill" href="#home"><i class='bx bxs-plane-alt'>Flight</i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" data-bs-toggle="pill" href="#menu1"><i class='bx bx-hotel'>Hotel</i></a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link text-light" data-bs-toggle="pill" href="#menu2"><i class='bx bx-car'>Rental</i></a>
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div id="home" class="container tab-pane active"><br>
+                        <div class="travel">
+                          <h5>Travel the world with us</h5>
+                        <div class="depature-arrival">
+                                <div class="from">
+                                  <label>From</label>
+                                  <input type="text" placeholder="Depature from">
+                                </div>
+                                <div class="to">
+                                   <label>To</label>
+                                   <input type="text" placeholder="Arrivial from">
+                                </div>
+                        </div>
+                    <div class="dates">
+                     <button>Search and find dates</button>
+                    </div>
+                      </div>
+                      </div>
+                      <div id="menu1" class="container tab-pane "><br>
+                        <div class="travel">
+                          <h5>Find the best hotel</h5>
+                           <p>Book a hotel with us and get the best fares and promotions.</p>
+                        <p>We know hotels - we know comfort.</p>                              
+                    <div class="dates">
+                     <button>Search Hotels</button>
+                    </div>
+                      </div>
+                      </div>
+                      <div id="menu2" class="container tab-pane"><br>
+                        <h5>Best car rental in the world!</h5>
+                              <h6><span>DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</h6>                               
+                              <div class="depature-arrival">
+                                      <div class="from">
+                                        <input type="text" placeholder="Pick up point">
+                                      </div> 
+                                  </div>
+                          <div class="dates">
+                           <button>Search and find dates</button>
+                          </div>
+                    </div>
+                    </div>
+                  
+                        
+          </div>
+            <div id="container">
+              <h2>Good offers Right Now</h2>
+              <h6>Upto <strong> 50%</strong>discount</h6>
+              <div class="gallery">
+       
+                <figure class="gallery__item one">
+                  <img src="cinque.jpg" class="gallery__img" alt="Image 1">
+                  <figcaption>Cinque Terre</figcaption>
+                </figure>
+                <figure class="gallery__item gallery__item--1">
+                    <img src="new york.jpg" class="gallery__img" alt="Image 1">
+                    <figcaption>New York</figcaption>
+                  </figure>
+                  <figure class="gallery__item gallery__item--1">
+                    <img src="san.jpg" class="gallery__img" alt="Image 1">
+                    <figcaption>San Francisco</figcaption>
+                  </figure>
+                  <figure class="gallery__item gallery__item--1">
+                    <img src="pisa.jpg" class="gallery__img" alt="Image 1">
+                    <figcaption>Pisa</figcaption>
+                  </figure>
+                  <figure class="gallery__item gallery__item--1">
+                    <img src="paris.jpg" class="gallery__img" alt="Image 1">
+                    <figcaption>Paris</figcaption>
+                  </figure>
+                
+        </div>
+              </div>
+            </div>
+<div id="section">
+              <h2>Explore Nature</h2>
+              <h6>Travel with us and see nature at its finest</h6>
+               <div class="mountains">
+                <div class="mountains-left">
+                  <div class="mountains-top">
+                    <img src="norway.jpg">
+                  </div>
+                  <div class="mountains-bottom">
+                    <h3>West Coast,Norway</h3>
+                    <h6>Roundtrip from $<sub>79</sub></h6>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="buy-tickets">Buy tickets</button>
+                  </div>
+                </div>
+                <div class="mountains-right">
+                  <div class="mountains-top">
+                    <img src="australia.jpg">
+                  </div>
+                  <div class="mountains-bottom">
+                    <h3>Mountains,Austria</h3>
+                    <h6>One-way from $<sub>39</sub></h6>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="buy-tickets">Buy tickets</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+            <div id="best-offers">
+                 <div class="offers-content">
+              <h2>Get the best offers first</h2>
+              <p>Join our newsletter</p>
+              
+                <label>Email</label>
+                <input type="email" placeholder="Your Email address">
+             
+              <button class="subscribe">Subscribe</button>
+            </div>
+            </div>
+            <div id="contact">
+              <div class="contact-content">
+                <h2>Contact</h2>
+              <p>Let us book your next trip!</p>
+              <ul>
+                <li> <i class='bx bxs-map'></i><span>Chicago,US</span></li>
+                <li> <i class='bx bxs-phone'></i><span>Phone: +00 151515</span></li>
+                <li> <i class='bx bxs-envelope'></i><span>Email: mail@mail.com</span></li>
+              </ul>
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Message">
+              <button class="contact-btn">SEND MESSAGE</button>
+            </div>
+            </div>
+            <div class="footer">
+              <h5>Find Us On</h5>
+              <ul>
+                <li><i class='bx bxl-facebook'></i></li>
+                <li><i class='bx bxl-instagram'></i></li>
+                <li><i class='bx bxl-snapchat'></i></li>
+                <li><i class='bx bxl-pinterest-alt'></i></li>
+                <li><i class='bx bxl-twitter'></i></li>
+                <li><i class='bx bxl-linkedin'></i></li>
+              </ul>
+              <p>Powered by <a href="#">W<sub>3</sub>.css</a></p>
+            </div>
+</body>
+</html>
